@@ -69,14 +69,16 @@ sudo apt-get install snapd snapd-xdg-open -y
 2. Install extensions:
     ```
     ./scripts/install-vscode-extensions.sh
-    or
+     or
     curl -L https://raw.githubusercontent.com/jongler-dev/new-pc-setup/main/scripts/install-vscode-extensions.sh | sh
     ```
 3. Update settings:
     ```
+    ./scripts/install-vscode-user-settings.sh
+     or
     Ctrl + Shift + P ->
     Type 'Open Settings (JSON)' -> 
-    copy the values from ./scripts/vs-settings.json
+    copy the values from ./scripts/vscode-user-settings.json
     ```
 
 ### Notepad++

@@ -15,8 +15,7 @@
 
 
 ## Post-installation
-source: 
-https://itsfoss.com/things-to-do-after-installing-ubuntu-20-04/
+Cool blog post: https://itsfoss.com/things-to-do-after-installing-ubuntu-20-04/
 
 ### Update Ubuntu
 ```
@@ -31,11 +30,10 @@ sudo apt autoremove
     sudo apt install curl -y
     sudo apt install git  -y
     sudo apt install vim  -y
+    # zsh
     sudo apt install zsh  -y
     sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     ```
-    > Note: make zsh the default shell: https://askubuntu.com/a/131838 (may not be needed).
-
 ### Dot files
 ```
 mkdir ~/workspace
@@ -59,7 +57,9 @@ ssh-copy-id remote_username@server_ip_address
 ```
 
 ### Snap (install utility, e.g. for VSCode, Notepad++, etc)
+```
 sudo apt-get install snapd snapd-xdg-open -y
+```
 
 ### VSCode
 1. Install:
@@ -74,7 +74,7 @@ sudo apt-get install snapd snapd-xdg-open -y
     ```
 3. Update settings:
     ```
-    Ctrl+shift+P -> 
+    Ctrl + Shift + P ->
     Type 'Open Settings (JSON)' -> 
     copy the values from ./scripts/vs-settings.json
     ```
@@ -89,11 +89,15 @@ sudo snap install notepad-plus-plus
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
+Chrome extensions:
+1. Json Formatter: open-source, lightweight, raw/parsed view: https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en
+2. uBlock Origin: open-source ad/content blocker: https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm
 
-## Node.js
+
+### Node.js
 Install Node, NPM, NVM from [here](https://github.com/nvm-sh/nvm#installing-and-updating). These commands were relevant at the time of writing this guide:
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
--close terminal-
+ -close terminal-
 nvm install node
 ```

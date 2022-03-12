@@ -41,10 +41,6 @@ Install Node.js (nvm, node, npm) on WSL: https://docs.microsoft.com/en-us/window
   * other cool fonts: fira code and cascadia code.
 * Themes:
   * cobalt2 
-* Extentions:
-* Keyboard shortcuts:
-  * Toggle whitespace rendering: Ctrl+w, Ctrl+w
-  * TOOD: export all keyboard shortcuts?
 
 ## Docker
 * official MS tutorial: https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers

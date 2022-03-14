@@ -1,11 +1,19 @@
 {
-    "editor.bracketPairColorization.enabled": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.detectIndentation": false,
-    "editor.fontSize": 15,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "boundary",
-    "files.autoSave": "onFocusChange",
-    "prettier.singleQuote": true,
-    "workbench.iconTheme": "material-icon-theme"
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "'Fira Code', monospace",
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 2,
+  "files.autoSave": "onFocusChange",
+  "prettier.singleQuote": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.rightClickBehavior": "paste",
+  "workbench.iconTheme": "material-icon-theme"
 }

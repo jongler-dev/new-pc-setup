@@ -124,6 +124,16 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 nvm install node
 ```
 
+### Docker
+
+1. Create a dockerhub account: https://hub.docker.com/signup
+2. Install: https://docs.docker.com/engine/install/ubuntu/
+3. Login to docker hub locally: `sudo docker login`
+4. Test installation: `sudo docker run hello-world`
+5. Install docker-compose (click the Linux tab): https://docs.docker.com/compose/install/#install-compose
+6. Test docker-compose: `docker-compose -v`
+7. Run Docker commands without sudo: https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user
+
 ## Nice to have :-)
 
 ### Notepad++
@@ -136,4 +146,10 @@ sudo snap install notepad-plus-plus
 
 ```
 sudo snap install spotify
+```
+
+### VLC
+
+```
+sudo snap install vlc
 ```

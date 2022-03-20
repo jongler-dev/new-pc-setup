@@ -154,3 +154,11 @@ sudo snap install spotify
 ```
 sudo snap install vlc
 ```
+
+Then install `ubuntu-restricted-extras` for additional codecs (https://itsfoss.com/install-media-codecs-ubuntu/). TL;DR:
+
+```
+sudo add-apt-repository multiverse
+sudo apt update
+sudo apt install ubuntu-restricted-extras
+```

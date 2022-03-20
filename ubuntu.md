@@ -77,13 +77,14 @@ sudo apt-get install snapd snapd-xdg-open -y
    sudo snap install --classic code
    ```
    > NOTE: if you have "Settings Sync" turned on then no need to manually install extensions, settings or keybindings :-)
-2. Install extensions:
+2. (Optional) Install Fira Code fonts: https://github.com/tonsky/FiraCode.
+3. Install extensions:
    ```
    ./scripts/install-vscode-extensions.sh
     or
    curl -L https://raw.githubusercontent.com/jongler-dev/new-pc-setup/main/scripts/install-vscode-extensions.sh | sh
    ```
-3. Update settings:
+4. Update settings:
 
    ```
    ./scripts/install-vscode-user-settings.sh
@@ -93,7 +94,7 @@ sudo apt-get install snapd snapd-xdg-open -y
    copy the values from ./scripts/vscode-user-settings.json
    ```
 
-4. Keyboard bindings:
+5. Keyboard bindings:
    ```
    ./scripts/install-vscode-key-bindings.sh
          or

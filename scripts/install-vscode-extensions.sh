@@ -1,15 +1,18 @@
 #!/bin/sh
 
+# list installed extentions using: code --list-extensions
 PACKAGES=(
-    xabikos.JavaScriptSnippets
-    esbenp.prettier-vscode
-    PKief.material-icon-theme
-    ms-azuretools.vscode-docker
+  akamud.vscode-theme-onedark
+  esbenp.prettier-vscode
+  GrapeCity.gc-excelviewer
+  ms-azuretools.vscode-docker
+  PKief.material-icon-theme
+  xabikos.JavaScriptSnippets
 )
 
 echo "Installing VSCODE Extensions..."
 
 for i in "${PACKAGES[@]}"
 do :
-    code --install-extension "$i"
+  code --install-extension "$i"
 done

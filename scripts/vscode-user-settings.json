@@ -3,9 +3,10 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
   "editor.fontFamily": "'Fira Code', monospace",
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
   "editor.tabSize": 2,
@@ -15,5 +16,6 @@
   "terminal.integrated.fontFamily": "monospace",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.rightClickBehavior": "paste",
+  "workbench.colorTheme": "Atom One Dark",
   "workbench.iconTheme": "material-icon-theme"
 }

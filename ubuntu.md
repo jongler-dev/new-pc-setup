@@ -36,6 +36,7 @@ sudo apt autoremove
    # zsh
    sudo apt install zsh  -y
    sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   sudo apt install tree
    ```
 
 ### Dot files
@@ -67,7 +68,7 @@ ssh-copy-id remote_username@server_ip_address
 ### Snap (install utility, e.g. for VSCode, Notepad++, etc)
 
 ```
-sudo apt-get install snapd snapd-xdg-open -y
+sudo apt install snapd snapd-xdg-open -y
 ```
 
 ### VSCode

@@ -2,10 +2,11 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.detectIndentation": false,
-  "editor.fontFamily": "monospace, fira code, ubuntu mono",
-  "editor.fontSize": 18,
+  "editor.fontFamily": "fira code, ubuntu mono",
+  "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  "editor.lineHeight": 1.5,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.padding.top": 16,
@@ -18,6 +19,11 @@
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.rightClickBehavior": "paste",
   "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#1989fa",
+    "tab.activeBackground": "#474745"
+  },
   "workbench.iconTheme": "material-icon-theme",
-  "editor.lineHeight": 1.45
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.general.tags": ["BUG", "TODO", "FIXME", "HACK"]
 }

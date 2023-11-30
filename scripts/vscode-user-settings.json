@@ -1,29 +1,30 @@
 {
-  "editor.bracketPairColorization.enabled": true,
+  //   "editor.detectIndentation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.detectIndentation": false,
   "editor.fontFamily": "fira code, ubuntu mono",
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.lineHeight": 1.5,
-  "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "editor.padding.top": 16,
+  "editor.padding.top": 12,
   "editor.renderWhitespace": "boundary",
-  "editor.tabSize": 2,
   "files.autoSave": "onFocusChange",
-  "prettier.singleQuote": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  // "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.fontFamily": "ubuntu mono, fira code, monospace",
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.rightClickBehavior": "paste",
+  "todo-tree.highlights.useColourScheme": true,
+  // "todo-tree.general.tags": ["BUG", "TODO", "FIXME", "HACK"],
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "Atom One Dark",
   "workbench.colorCustomizations": {
+    "tab.activeBackground": "#474745",
     "tab.activeBorder": "#1989fa",
-    "tab.activeBackground": "#474745"
+    "tab.activeBorderTop": "#1989fa"
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "todo-tree.highlights.useColourScheme": true,
-  "todo-tree.general.tags": ["BUG", "TODO", "FIXME", "HACK"]
+  "workbench.iconTheme": "material-icon-theme"
 }
